@@ -25,12 +25,16 @@ Project 1 cs4760
 
    Calling program with 20 has program 6/20 adopted by init
       Also of note, process 20 finished before process 19
+   
    Calling program with 40 has program /40 adopted by init
       Program would not run more than 28 processes, but 8/28 adopted
+   
    Calling program with 60 has program /60 adopted by init
       Program would not run more than 28 processes, but 17/28 adopted
+   
    Calling program with 80 has program /80 adopted by init
       Program would not run more than 28 processes, but 13/28 adopted
+   
    Calling program with 99 has program /99 adopted by init
       Program would not run more than 28 processes, but 10/28 adopted
    
