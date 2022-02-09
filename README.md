@@ -41,5 +41,14 @@ Project 1 cs4760
    On average, the program seems to be adopted by init approximately more than 50% of the time, but code would not run for more than 28 processes
    
 5.
+   Calling with 1 2 3 leads to one process being printed twice with the same values printed for each
+   Calling with 1 5 10 causes program to take a long time to print each line, but each line is a copy
+   Calling with 2 5 1 causes two processes to be printed 5 times
+   Calling with 10 6 1 leads program to print 10 processes 6 times, but they do not print in the same order each time
    
+6.
+   Adding wait system call before final fprint f leads to each i value being printed together k times
+   Calling with n=100 still only yeads 28 processes
+   
+7.
    
