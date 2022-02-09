@@ -48,7 +48,7 @@ Project 1 cs4760
    
 6.
    Adding wait system call before final fprint f leads to each i value being printed together k times
-   Calling with n=100 still only yeads 28 processes
+   Calling with n=100 still only yields 28 processes
    
 7.
-   
+   Program run with values 5 6 1 respectively, when program is called, all processes are grouped together, but are still copies of each still
