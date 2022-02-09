@@ -28,6 +28,7 @@ int main (int argc, char *argv[])
                 }
         }
 
+        //passes user-defined values from command line to both k and m respectively
         k = atoi(argv[2]);
         m = atoi(argv[3]);
 
