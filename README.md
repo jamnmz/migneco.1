@@ -52,3 +52,6 @@ Project 1 cs4760
    
 7.
    Program run with values 5 6 1 respectively, when program is called, all processes are grouped together, but are still copies of each still
+   
+8.
+   DID NOT COMPLETE
