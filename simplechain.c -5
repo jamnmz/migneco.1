@@ -1,0 +1,41 @@
+/*
+ *Jared Migneco, Project 1, 02-08-2022
+ * */
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main (int argc, char *argv[])
+{
+        pid_t childpid = 0;
+
+        //ints, j, k, and m used in task 5 of project, where k comes first from user input, followed by m
+        int i, n, j, k, m;
+
+        if (argc != 2)
+        {
+                fprintf(stderr, "Usage: %s processes\n", argv[0]);
+                return 1;
+        }
+
+        n = atoi(argv[1]);
+        for (i = 1; i < n; i++)
+        {
+                if (childpid = fork())
+                {
+                        break;
+                }
+        }
+
+        k = atoi(argv[2]);
+        m = atoi(argv[3]);
+
+        //loop for task 5, k determines iterations, m determines length of sleep
+        for(j = 0; j < k; j++)
+        {
+                sleep(m);
+                fprintf(stderr, "i:%d process ID:%ld parent ID:%ld child ID:%ld\n",
+                        i, (long)getpid(), (long)getppid(), (long)childpid);
+        }
+        return 0;
+}
